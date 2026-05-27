@@ -1,0 +1,26 @@
+:root {
+  --azul-noche: #071426; /* Fondos principales */
+  --azul-faro: #0D273A; /* Headers / bloques */
+  --azul-petróleo: #173E52; /* Secciones y hover */
+  --rojo-faro: #A63722; /* CTA / acentos */
+  --rojo-profundo: #681B18; /* Bordes / énfasis */
+  --crema-cartel: #D8C5A0; /* Texto sobre azul */
+  --arena-antigua: #A88C62; /* Texturas / detalles */
+  --gris-metal: #8E9997; /* Bordes / líneas */
+  --blanco-humo: #F1E8D0; /* Texto claro */
+}
+
+body {
+  background: var(--azul-noche);
+  color: var(--blanco-humo);
+}
+
+.btn-faro {
+  background: var(--rojo-faro);
+  color: var(--blanco-humo);
+}
+
+.card-faro {
+  background: var(--azul-faro);
+  border: 1px solid var(--gris-metal);
+}
